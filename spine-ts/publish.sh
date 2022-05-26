@@ -17,6 +17,7 @@ sed -i '' "s/$lastVersion/$newVersion/" spine-core/package.json
 sed -i '' "s/$lastVersion/$newVersion/" spine-player/package.json
 sed -i '' "s/$lastVersion/$newVersion/" spine-threejs/package.json
 sed -i '' "s/$lastVersion/$newVersion/" spine-webgl/package.json
+sed -i '' "s/$lastVersion/$newVersion/" spine-babylonjs/package.json
 
 rm -rf node_modules
 rm package-lock.json

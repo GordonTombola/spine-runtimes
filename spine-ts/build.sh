@@ -20,6 +20,7 @@ then
 		spine-webgl/dist/iife/* \
 		spine-player/dist/iife/* \
 		spine-threejs/dist/iife/* \
+		spine-babylonjs/dist/iife/* \
 		spine-player/css/spine-player.css \
 		spine-player/example/external/*
 	curl -f -F "file=@spine-ts.zip" "$TS_UPDATE_URL$BRANCH"
