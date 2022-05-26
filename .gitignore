@@ -123,6 +123,8 @@ spine-turbulenz/spine-js/spine.js
 
 spine-threejs/spine-js/spine.js
 
+spine-babylonjs/spine-js/spine.js
+
 spine-ts/.vscode/*
 
 spine-ue4/Binaries
@@ -152,3 +154,4 @@ spine-ts/spine-canvas/dist
 spine-ts/spine-webgl/dist
 spine-ts/spine-player/dist
 spine-ts/spine-threejs/dist
+spine-ts/spine-babylonjs/dist
