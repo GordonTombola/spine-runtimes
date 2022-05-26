@@ -54,10 +54,6 @@ export class BabylonJsTexture extends Texture {
     }
 
     static toBabylonJsTextureFilter(minFilter: TextureFilter, magFilter: TextureFilter) {
-        if (magFilter !== TextureFilter.Linear && magFilter !== TextureFilter.Nearest) {
-            //something dodgy, mag filter can only be either of these two values
-            throw new Error("Unknown texture mag filter: " + magFilter);
-        }
         switch (magFilter) {
             case TextureFilter.Linear:
                 if (minFilter === TextureFilter.Linear) { return Constants.TEXTURE_LINEAR_LINEAR }
